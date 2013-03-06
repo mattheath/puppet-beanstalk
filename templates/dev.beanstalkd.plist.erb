@@ -16,9 +16,9 @@
       <string>-b</string>
       <string><%= scope.lookupvar "beanstalk::config::binlogdir" %></string>
       <string>-l</string>
-      <string><%= scope.lookupvar "beanstalk::config::beanstalk_listen_address" %></string>
+      <string><%= scope.lookupvar "beanstalk::config::address" %></string>
       <string>-p</string>
-      <string><%= scope.lookupvar "beanstalk::config::beanstalk_listen_port" %></string>
+      <string><%= scope.lookupvar "beanstalk::config::port" %></string>
     </array>
 
     <key>RunAtLoad</key>

@@ -7,7 +7,7 @@ class beanstalk::config {
   $binlogdir   = "${datadir}/binlogs"
   $executable  = "${boxen::config::homebrewdir}/bin/beanstalkd"
 
-  $beanstalk_listen_address = "0.0.0.0"
-  $beanstalk_listen_port    = "21300"
+  $address     = "0.0.0.0"
+  $port        = "21300"
 
 }
