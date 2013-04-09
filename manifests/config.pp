@@ -1,3 +1,5 @@
+# Private: Config parameters for Beanstalk
+#
 class beanstalk::config {
   require boxen::config
 
@@ -7,7 +9,7 @@ class beanstalk::config {
   $binlogdir   = "${datadir}/binlogs"
   $executable  = "${boxen::config::homebrewdir}/bin/beanstalkd"
 
-  $address     = "0.0.0.0"
-  $port        = "21300"
+  $address     = '0.0.0.0'
+  $port        = '21300'
 
 }

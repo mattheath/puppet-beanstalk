@@ -1,3 +1,9 @@
+# Public: Install Beanstalkd and run as a persistent service
+#
+# Examples
+#
+#   include beanstalk
+#
 class beanstalk {
   include beanstalk::config
   include homebrew
@@ -31,7 +37,7 @@ class beanstalk {
     require => File[$boxen::config::envdir]
   }
 
-  # Fire up our nsqd service
+  # Fire up our beanstalk service
 
   file { '/Library/LaunchDaemons/dev.beanstalkd.plist':
     content => template('beanstalk/dev.beanstalkd.plist.erb'),
