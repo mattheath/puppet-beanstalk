@@ -1,6 +1,6 @@
 # Beanstalk Puppet Module for Boxen
 
-[![Build Status](https://travis-ci.org/mattheath/puppet-beanstalk.png?branch=master)](https://travis-ci.org/mattheath/puppet-beanstalk)
+[![Build Status](https://travis-ci.org/boxen/puppet-beanstalk.png?branch=master)](https://travis-ci.org/boxen/puppet-beanstalk)
 
 [Beanstalk](http://kr.github.com/beanstalkd/) is a simple, fast work queue.
 
